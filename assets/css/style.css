@@ -1,0 +1,44 @@
+/* body {
+    background-color: black;
+    color: white;
+}
+
+main {
+    display: flex;
+}
+
+header {
+    text-align: center;
+}
+
+
+#fiveDayForcast {
+    display: flex;
+    flex-direction: row;
+    justify-items: flex-end;
+}
+
+#cities {
+    display: flex;
+    flex-direction: column;
+}
+
+.city-button {
+    display: flex;
+}  */
+.icon, #main-forecast, #five-day-title, .small-forecast, footer{
+    display: none;
+}
+
+button {
+    border-radius: 5px;
+}
+.card {
+    padding: 10px;
+}
+
+header {
+    filter:drop-shadow(0 0 5px var(rgb(25, 25, 75)));
+    background-image: linear-gradient(45deg, rgba(0, 0,0,1), rgba(0,0,255,1), rgba(0,0,255,0));
+}
+
