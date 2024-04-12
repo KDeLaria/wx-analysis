@@ -1,4 +1,4 @@
-const apiKey = "ca21f4d87a774f0169226db9c273561d";//proccess.env.API_KEY;
+const apiKey = proccess.env.API_KEY;
 const baseUrl = "https://api.openweathermap.org/data/2.5/weather?units=imperial&lang=en&appid=" + apiKey + "&q=";
 const iconUrl = "https://openweathermap.org/img/wn/";
 const iconMedium = "@2x.png";
