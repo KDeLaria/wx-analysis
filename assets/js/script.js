@@ -256,7 +256,7 @@ function setDewPointColor(dewpoint) {
         dewpoint = `<span style='color:LightGreen'>${dewpoint} °F</span>`;
     }
     else if (dewpoint >= 56 && dewpoint <= 60) {
-        dewpoint = `<span style='color:Green'>${dewpoint} °F</span>`;
+        dewpoint = `<span style='color:GreenYellow'>${dewpoint} °F</span>`;
     }
     else if (dewpoint >= 61 && dewpoint <= 65) {
         dewpoint = `<span style='color:Yellow'>${dewpoint} °F</span>`;
